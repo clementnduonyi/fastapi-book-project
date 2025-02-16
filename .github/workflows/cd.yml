@@ -34,7 +34,7 @@ jobs:
             pip install --upgrade pip
             pip install -r requirements.txt
             sudo systemctl restart fastapi-app
-            sudo systemctl reload nginx  # Reload instead of full restart if only configs changed
+            sudo systemctl reload nginx 
           EOF
 
 
